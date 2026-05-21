@@ -1,3 +1,9 @@
 var num = prompt("Enter a number", 10);
 
 // Write your code below
+
+if (num > 10) {
+    console.log(true);
+} else if (num < 10) {
+    console.log(false);
+}
